@@ -1,11 +1,15 @@
-Hello there! It's my first markdown, where I want to store my configuration.
+Hello there! It's my first markdown, where I would like to share my configuration for Ubuntu
 
 Contents:
+[Essentials](#Essentials)
+[Software](#Software)
+[Gnome Extensions](#GnomeExtensions)
+[Last steps](#Laststeps)
 
 
 
 # Essentials
-**All combined:**
+**All essntials combined:**
 sudo apt update && sudo apt upgrade -y && sudo apt-get -y install git tig cmake cmake-curses-gui build-essential automake autoconf autogen libncurses5-dev libc++-dev pkg-config libtool net-tools openssh-server xserver-xorg-input-all python2.7-dev python3-dev python-setuptools python3-setuptools python3-pip gtk-3.0 python3-gi && sudo apt install ubuntu-restricted-extras && sudo apt-get install synaptic && sudo add-apt-repository universe && sudo apt-get install gnome-tweak-tool && sudo apt install ubuntu-restricted-extras
 
 
@@ -83,13 +87,7 @@ sudo apt-get install neofetch
 sudo add-apt-repository ppa:apandada1/brightness-controller && sudo apt-get update && sudo apt-get install brightness-controller
 
 
-
-
 # Gnome Extensions
-**Gnome shell browser extensions**
-sudo apt install chrome-gnome-shell
-sudo apt install firefox-gnome-shell
-
 **Open weather**
 https://extensions.gnome.org/extension/750/openweather/
 sudo apt-get install gnome-shell-extension-weather
