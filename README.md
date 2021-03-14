@@ -1,10 +1,10 @@
 Hello there! It's my first markdown, where I would like to share my configuration for Ubuntu
 
 Contents:
-[Essentials](#Essentials)
-[Software](#Software)
-[Gnome Extensions](#GnomeExtensions)
-[Last steps](#Laststeps)
+[Essentials](#Essentials)  
+[Software](#Software)  
+[Gnome Extensions](#GnomeExtensions)  
+[Last steps](#Laststeps)  
 
 
 
@@ -13,120 +13,118 @@ Contents:
 sudo apt update && sudo apt upgrade -y && sudo apt-get -y install git tig cmake cmake-curses-gui build-essential automake autoconf autogen libncurses5-dev libc++-dev pkg-config libtool net-tools openssh-server xserver-xorg-input-all python2.7-dev python3-dev python-setuptools python3-setuptools python3-pip gtk-3.0 python3-gi && sudo apt install ubuntu-restricted-extras && sudo apt-get install synaptic && sudo add-apt-repository universe && sudo apt-get install gnome-tweak-tool && sudo apt install ubuntu-restricted-extras
 
 
-
-**Update & Upgrade:**
+**Update & Upgrade:**  
 sudo apt update && sudo apt-get dist-upgrade
 
-**base packages:**
+**base packages:**  
 sudo apt-get -y install git tig cmake cmake-curses-gui build-essential automake autoconf autogen libncurses5-dev libc++-dev pkg-config libtool net-tools openssh-server xserver-xorg-input-all
 
-**Python**
+**Python**  
 sudo apt-get -y install python2.7-dev python3-dev python-setuptools python3-setuptools python3-pip
 
-**Complete multimedia support**
+**Complete multimedia support**  
 sudo apt install ubuntu-restricted-extras
 
-**Synaptic**
+**Synaptic**  
 sudo apt-get install synaptic
 
-**Gnome tweak tool**
+**Gnome tweak tool**  
 sudo add-apt-repository universe
 sudo apt-get install gnome-tweak-tool
 
-**Media codecs**
+**Media codecs**  
 sudo apt install ubuntu-restricted-extras
 
 
 ## Software
-**VLC**
+**VLC**  
 sudo snap install vlc
 
-**Steam**
+**Steam**  
 sudo apt-get install steam-installer
 
-**Brasero**
+**Brasero**  
 sudo apt install brasero
 
-**Features for gedit**
+**Features for gedit**  
 sudo apt install gedit-developer-plugins
 
-**Vim**
+**Vim**  
 sudo apt install vim
 
-**Discord**
+**Discord**  
 sudo snap install discord
 
-**Chromium**
+**Chromium**  
 sudo snap install chromium
 
-**Firefox**
+**Firefox**  
 sudo snap install firefox
-
-**Telegram**
+ 
+**Telegram**  
 sudo snap install telegram-desktop
 
-**Spotify**
+**Spotify**  
 sudo snap install spotify
 
-**Docker**
+**Docker**  
 sudo snap install docker
 
-**Ocular**
+**Ocular**  
 sudo apt install okular
 
-**Ebook viewer**
+**Ebook viewer**  
 git clone https://github.com/michaldaniel/Ebook-Viewer.git && cd Ebook-Viewer/ && sudo make install
 
-**Zoom**
+**Zoom**  
 sudo snap install zoom-client
 
-**Neofetch**
+**Neofetch**  
 sudo apt-get install neofetch
 
-**Brightness controller**
+**Brightness controller**  
 sudo add-apt-repository ppa:apandada1/brightness-controller && sudo apt-get update && sudo apt-get install brightness-controller
 
 
 # Gnome Extensions
-**Open weather**
-https://extensions.gnome.org/extension/750/openweather/
-sudo apt-get install gnome-shell-extension-weather
+**Open weather**  
+https://extensions.gnome.org/extension/750/openweather/  
 
-**Net speed**
+**Net speed**  
 https://extensions.gnome.org/extension/104/netspeed/
 
-**Dash to Dock**
+**Dash to Dock**  
 https://extensions.gnome.org/extension/307/dash-to-dock/
 
-**Clipboard Indicator**
+**Clipboard Indicator**  
 https://extensions.gnome.org/extension/779/clipboard-indicator/
 
-**Apt Update Indicator**
+**Apt Update Indicator**  
 https://extensions.gnome.org/extension/1139/apt-update-indicator/
 
-**Drop Down Terminal**
+**Drop Down Terminal**  
 https://extensions.gnome.org/extension/442/drop-down-terminal/
 
-**Auto Move Windows**
+**Auto Move Windows**  
 https://extensions.gnome.org/extension/16/auto-move-windows/
 
-**Gnome-sushi**
+**Gnome-sushi**  
 sudo apt install gnome-sushi
 
 
 ## Last steps
 
-**Remove amazon**
+**Remove amazon**  
 sudo apt purge ubuntu-web-launchers
 
-**Make cleaup**
+**Make cleaup**  
 sudo apt-get autoclean && sudo apt-get clean && sudo apt-get autoremove
 
-**Stop private data collection**
+**Stop private data collection**  
 System Settings > Privacy > Problem Reporting > Manual
 
-**Minimize on click**
+**Minimize on click**  
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 
-**Xkill shortcut**
+**Xkill shortcut**  
 Settings > Keyboard Shortcuts > add a new shortcut >
