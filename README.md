@@ -1,6 +1,6 @@
 Hello there! It's my first markdown, where I would like to share my configuration for Ubuntu
 
-Contents:
+Contents:  
 [Essentials](#Essentials)  
 [Software](#Software)  
 [Gnome Extensions](#GnomeExtensions)  
