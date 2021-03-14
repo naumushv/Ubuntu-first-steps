@@ -3,8 +3,8 @@ Hello there! It's my first markdown, where I would like to share my configuratio
 Contents:  
 [Essentials](#Essentials)  
 [Software](#Software)  
-[Gnome Extensions](#GnomeExtensions)  
-[Last steps](#Laststeps)  
+[Gnome Extensions](#Gnome-Extensions)  
+[Last steps](#Last-steps)  
 
 
 
