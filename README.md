@@ -4,7 +4,7 @@ Contents:
 [Essentials](#Essentials)  
 [Software](#Software)  
 [Gnome Extensions](#Gnome-Extensions)  
-[Browser Extensions](#Browser-extesions)
+[Browser Extensions](#Browser-extesions)  
 [Last steps](#Last-steps)  
 
 
