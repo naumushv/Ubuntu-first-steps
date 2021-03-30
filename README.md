@@ -4,6 +4,7 @@ Contents:
 [Essentials](#Essentials)  
 [Software](#Software)  
 [Gnome Extensions](#Gnome-Extensions)  
+[Browser Extensions](#Browser-extesions)
 [Last steps](#Last-steps)  
 
 
@@ -35,56 +36,54 @@ sudo apt-get install gnome-tweak-tool
 **Media codecs**  
 sudo apt install ubuntu-restricted-extras
 
-
 ## Software
-**VLC**  
+**VLC**
 sudo snap install vlc
 
-**Steam**  
+**Steam**
 sudo apt-get install steam-installer
 
-**Brasero**  
+**Brasero**
 sudo apt install brasero
 
-**Features for gedit**  
+**Features for gedit**
 sudo apt install gedit-developer-plugins
 
-**Vim**  
+**Vim**
 sudo apt install vim
 
-**Discord**  
-sudo snap install discord
+**Discord**
+sudo apt install discord
 
-**Chromium**  
+**Chromium**
 sudo snap install chromium
 
-**Firefox**  
+**Firefox**
 sudo snap install firefox
- 
-**Telegram**  
+
+**Telegram**
 sudo snap install telegram-desktop
 
-**Spotify**  
+**Spotify**
 sudo snap install spotify
 
-**Docker**  
+**Docker**
 sudo snap install docker
 
-**Ocular**  
+**Ocular**
 sudo apt install okular
 
-**Ebook viewer**  
+**Ebook viewer**
 git clone https://github.com/michaldaniel/Ebook-Viewer.git && cd Ebook-Viewer/ && sudo make install
 
-**Zoom**  
+**Zoom**
 sudo snap install zoom-client
 
-**Neofetch**  
+**Neofetch**
 sudo apt-get install neofetch
 
-**Brightness controller**  
+**Brightness controller**
 sudo add-apt-repository ppa:apandada1/brightness-controller && sudo apt-get update && sudo apt-get install brightness-controller
-
 
 # Gnome Extensions
 **Open weather**  
@@ -111,6 +110,65 @@ https://extensions.gnome.org/extension/16/auto-move-windows/
 **Gnome-sushi**  
 sudo apt install gnome-sushi
 
+# Browser extesions
+OctoLinker
+https://github.com/OctoLinker/OctoLinker
+
+Octotree
+https://github.com/ovity/octotree
+
+uBlock
+https://github.com/gorhill/uBlock
+
+TouchVPN
+https://chrome.google.com/webstore/detail/touch-vpn-secure-and-unli/bihmplhobchoageeokmgbdihknkjbknd
+https://addons.mozilla.org/ru/firefox/addon/touch-vpn/
+
+Zenmate VPN
+https://chrome.google.com/webstore/detail/zenmate-free-vpn%E2%80%93best-vpn/fdcgdnkidjaadafnichfpabhfomcebme
+https://addons.mozilla.org/en-US/firefox/addon/zenmate-free-vpn-best/
+
+Browsec VPN
+https://chrome.google.com/webstore/detail/browsec-vpn-free-vpn-for/omghfjlpggmjjaagoclmmobgdodcjboh
+https://addons.mozilla.org/ru/firefox/addon/browsec/
+
+Tab2QR
+https://chrome.google.com/webstore/detail/tab2qr/mkfcgekjddmlceifimndhbliepfgnogo?hl=en
+https://addons.mozilla.org/en-US/firefox/addon/tab2qr/
+
+Ghostery
+https://chrome.google.com/webstore/detail/ghostery-%E2%80%93-privacy-ad-blo/mlomiejdfkolichcflejclcbmpeaniij?hl=en
+https://addons.mozilla.org/en-US/firefox/addon/ghostery/
+
+Bypass paywalls
+https://github.com/iamadamdev/bypass-paywalls-chrome
+
+Dark reader
+https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh
+https://addons.mozilla.org/en-US/firefox/addon/darkreader/
+
+Cookie AutoDelete
+https://chrome.google.com/webstore/detail/cookie-autodelete/fhcgjolkccmbidfldomjliifgaodjagh
+https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/
+
+Https everywhere
+https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp
+https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/
+
+Vimium
+https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb
+https://addons.mozilla.org/en-US/firefox/addon/vimium-c/
+
+Raindrop
+https://chrome.google.com/webstore/detail/raindropio/ldgfbffkinooeloadekpmfoklnobpien?hl=en
+https://addons.mozilla.org/en-US/firefox/addon/raindropio/
+
+Simple translate
+https://chrome.google.com/webstore/detail/simple-translate/ibplnjkanclpjokhdolnendpplpjiace?hl=en
+https://addons.mozilla.org/en-US/firefox/addon/simple-translate/
+
+More awesome extensions
+https://github.com/learn-anything/chrome-extensions
 
 ## Last steps
 
